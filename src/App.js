@@ -1,23 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
 
 function App() {
+
+  const [activeTab, setActiveTab] = useState(1);
+
+  const toggleTab = (tab) => {
+    setActiveTab(tab)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App-container">
+
+
+      <div className="tabs-container">
+        <div
+          className={activeTab === 1 ? 'tab active-tab' : 'tab'}
+          onClick={() => toggleTab(1)}>Description
+        </div>
+
+        <div
+          className={activeTab === 2 ? 'tab active-tab' : 'tab'}
+          onClick={() => toggleTab(2)}>Shipping and payments
+        </div>
+        <a href='#' className="report-item-link">Report item</a>
+      </div>
+
+      <div className="content-container">
+
+        <div className={activeTab === 1 ? 'content active-content' : 'content'}>
+          <p>DESCRIPTION INFORMATION </p>
+        </div>
+
+        <div className={activeTab === 2 ? 'content active-content' : 'content'}>
+          <p>SHIPPING AND PAYMENT INFO</p>
+        </div>
+
+      </div>
+
     </div>
   );
 }
