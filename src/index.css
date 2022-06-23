@@ -7,7 +7,7 @@
 body {
   font-family: sans-serif;
   color: #333;
-  font-size: 13px;
+  font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -67,11 +67,44 @@ body {
 
 }
 
+.content-container a:visited {
+  color: #6a29b9;
+}
+
 .content {
   display: none;
-  width: 90vw;
+  width: 100%;
 }
 
 .active-content {
   display: block;
+}
+
+.topBlockDetailsContainer {
+  /* border: 1px solid red; */
+}
+
+.topBlockItemNumDiv {
+  float: right;
+  padding-top: 8px;
+  font-weight: bolder;
+  color: #767676;
+  font-size: .9rem;
+  font-weight: bold;
+}
+
+.topBlockItemNumber {
+  font-weight: bold;
+  padding-left: 8px;
+}
+
+.topBlockDetailsContainer p {
+  font-size: .825rem;
+  padding-top: 18px;
+  font-weight: 600;
+}
+
+.topBlockUpdateDate {
+  font-size: .9rem;
+  font-weight: 500;
 }

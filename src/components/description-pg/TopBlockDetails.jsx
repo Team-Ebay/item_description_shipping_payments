@@ -11,7 +11,7 @@ const TopBlockDetails = () => {
 
             <p>Seller assumes all responsibility for this listing.</p>
 
-            <div>Last updated on {updatedOnDate} <a href='#'> View all revisions</a></div>
+            <div className='topBlockUpdateDate'>Last updated on {updatedOnDate} <a href='#'> View all revisions</a></div>
 
         </div>
     )
