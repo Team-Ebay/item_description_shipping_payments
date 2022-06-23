@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import Description from './components/description-pg/Description.jsx'
+import ShippingPayments from './components/shipping-and-payments-pg/ShippingPayments.jsx'
 
 function App() {
 
@@ -28,11 +30,11 @@ function App() {
       <div className="content-container">
 
         <div className={activeTab === 1 ? 'content active-content' : 'content'}>
-          <p>DESCRIPTION INFORMATION </p>
+          <Description />
         </div>
 
         <div className={activeTab === 2 ? 'content active-content' : 'content'}>
-          <p>SHIPPING AND PAYMENT INFO</p>
+          <ShippingPayments />
         </div>
 
       </div>
