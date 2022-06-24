@@ -82,9 +82,7 @@ body {
   display: block;
 }
 
-.topBlockDetailsContainer {
-  /* border: 1px solid red; */
-}
+.topBlockDetailsContainer {}
 
 .topBlockItemNumDiv {
   float: right;
@@ -129,7 +127,7 @@ body {
 
 .detailsContainer {
   display: grid;
-  grid-template-columns: 8% 36% 11% 33%;
+  grid-template-columns: 8% 38% 11% 33%;
   gap: 1%;
   row-gap: 10px;
   width: 100%;
@@ -166,7 +164,7 @@ body {
 
 .priceMeNow {
   height: 100%;
-  margin-right: 95px;
+  margin-right: 86px;
   width: 400px;
 }
 
@@ -208,7 +206,6 @@ a.navbarLink:visited {
 }
 
 .largeImgWithDetailsBlockContainer {
-  border: 1px solid red;
   width: 1170px;
   margin: auto;
   display: grid;
@@ -216,6 +213,52 @@ a.navbarLink:visited {
   column-gap: 5%;
 }
 
-.img-responsive {
+.main-bandana-img {
   width: 107%;
+  margin-left: 4px;
+}
+
+.largeBottomTxtContainer {
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 4px;
+}
+
+.largeBottomTxtTitle {
+  font-size: 2rem;
+  padding-right: 5px;
+}
+
+.largeBottomTxtPrice {
+  font-size: 1.5rem;
+}
+
+.largeBottomTxtTitleSmall {
+  font-size: 1.17rem;
+  margin-left: 1px;
+  margin-right: 10px;
+}
+
+.largeBottomTxtProductDetailsTitle {
+  font-size: 1.17rem;
+}
+
+.largeBottomGreyTextBoxContainer {
+  background-color: #f1f1f1;
+  padding: .5rem 1rem .5rem 1rem;
+  margin-right: 17px;
+}
+
+.productDetailsUL {
+  padding-left: 20px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.channelAdvisorLogo {
+  display: grid;
+  justify-items: center;
+  /* margin: auto */
+  margin-bottom: 100px
 }

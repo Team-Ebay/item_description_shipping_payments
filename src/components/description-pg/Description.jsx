@@ -3,6 +3,7 @@ import TopBlockDetails from './TopBlockDetails.jsx';
 import ItemSpecificsBlock from './ItemSpecificsBlock';
 import MiniNavbarBlock from './MiniNavbarBlock'
 import LargeImgWithDetailsBlock from './LargeImgWithDetailsBlock'
+import ChannelAdvisorLogo from './ChannelAdvisorLogo'
 
 
 const Description = () => {
@@ -12,7 +13,7 @@ const Description = () => {
             <ItemSpecificsBlock />
             <MiniNavbarBlock />
             <LargeImgWithDetailsBlock />
-
+            <ChannelAdvisorLogo />
         </>
     )
 }
