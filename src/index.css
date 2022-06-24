@@ -16,8 +16,10 @@ body {
   margin: auto;
   display: flex;
   flex-direction: column;
-  max-width: 1475px;
-  min-width: 1230px;
+  max-width: 1210px;
+  min-width: 1100px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .tabs-container {
@@ -62,7 +64,7 @@ body {
 
 .content-container {
   border: 1px solid #ddd;
-  padding: 20px;
+  padding: 15px 35px 15px 30px;
   width: 100%;
 
 }
@@ -94,8 +96,9 @@ body {
 }
 
 .topBlockItemNumber {
-  font-weight: bold;
+  font-weight: 900;
   padding-left: 8px;
+  color: #333;
 }
 
 .topBlockDetailsContainer p {
@@ -107,4 +110,43 @@ body {
 .topBlockUpdateDate {
   font-size: .9rem;
   font-weight: 500;
+  margin-bottom: 10px;
+}
+
+
+.itemSpecificsContainer {
+  border: 1px solid #c7c7c7;
+  padding: 10px 20px;
+}
+
+.itemSpecificsTitle {
+  display: flex;
+  font-size: 1rem;
+  padding-bottom: 8px;
+  font-weight: 700;
+}
+
+.detailsContainer {
+  display: grid;
+  grid-template-columns: 8% 36% 11% 33%;
+  gap: 1%;
+  row-gap: 10px;
+  width: 100%;
+  color: #111
+}
+
+.label {
+  /* width: fit-content; */
+  /* max-width: 200px; */
+  /* justify-self: center; */
+}
+
+.label2 {
+  padding-left: 20px;
+}
+
+.details {
+  /* white-space: nowrap;
+  display: table-cell; */
+  /* max-width: 400px; */
 }

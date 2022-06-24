@@ -1,12 +1,14 @@
 import React from 'react';
 import TopBlockDetails from './TopBlockDetails.jsx';
-import ItemSpecifics from './ItemSpecifics';
+import ItemSpecificsBlock from './ItemSpecificsBlock';
 
 const Description = () => {
     return (
         <>
             <TopBlockDetails />
-            <ItemSpecifics />
+            <ItemSpecificsBlock />
+            {/* <MiniNavbarBlock /> */}
+            {/* <LargeImgWithDetailsBlock /> */}
 
         </>
     )
