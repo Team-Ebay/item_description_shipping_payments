@@ -16,7 +16,7 @@ body {
   margin: auto;
   display: flex;
   flex-direction: column;
-  max-width: 1210px;
+  max-width: 1470px;
   min-width: 1100px;
   padding-right: 5px;
   padding-left: 5px;
@@ -117,6 +117,7 @@ body {
 .itemSpecificsContainer {
   border: 1px solid #c7c7c7;
   padding: 10px 20px;
+  margin-bottom: 16px;
 }
 
 .itemSpecificsTitle {
@@ -135,18 +136,72 @@ body {
   color: #111
 }
 
-.label {
-  /* width: fit-content; */
-  /* max-width: 200px; */
-  /* justify-self: center; */
-}
+.label {}
 
 .label2 {
   padding-left: 20px;
 }
 
-.details {
-  /* white-space: nowrap;
-  display: table-cell; */
-  /* max-width: 400px; */
+.details {}
+
+.miniNavbarContainer {
+  border: 1px solid transparent;
+  margin: auto;
+  border-radius: 4px;
+  min-height: 50px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
+  background-repeat: repeat-x;
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 15%), 0 1px 5px rgb(0 0 0 / 8%);
+  margin-right: 15px;
+}
+
+.navbarMainGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  align-self: center;
+  margin-right: -15px;
+}
+
+.priceMeNow {
+  height: 100%;
+}
+
+.navbarLinksUL {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  /* grid-template-rows: 100%; */
+  column-gap: 215x;
+  list-style: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  /* align-content: center; */
+}
+
+.navbarDiv {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbarDiv:hover {
+  background-color: #eeeeee;
+}
+
+.navbarLink {
+  color: #333;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+a.navbarLink:visited {
+  color: #333;
+}
+
+.navbarLink:hover {
+  text-decoration: none;
 }
