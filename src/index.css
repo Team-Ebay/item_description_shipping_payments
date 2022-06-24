@@ -58,8 +58,10 @@ body {
 }
 
 .report-item-link {
+
   margin-left: auto;
   align-self: center;
+  margin-right: 18px;
 }
 
 .content-container {
@@ -127,7 +129,7 @@ body {
 
 .detailsContainer {
   display: grid;
-  grid-template-columns: 8% 38% 11% 33%;
+  grid-template-columns: 8% 38% 9% 33%;
   gap: 1%;
   row-gap: 10px;
   width: 100%;
