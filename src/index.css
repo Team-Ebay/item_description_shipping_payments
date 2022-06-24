@@ -166,19 +166,20 @@ body {
 
 .priceMeNow {
   height: 100%;
+  margin-right: 95px;
+  width: 400px;
 }
 
 .navbarLinksUL {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  /* grid-template-rows: 100%; */
   column-gap: 215x;
   list-style: none;
   height: 100%;
   margin: 0;
   padding: 0;
   align-items: center;
-  /* align-content: center; */
+  margin-right: 80px;
 }
 
 .navbarDiv {
@@ -204,4 +205,17 @@ a.navbarLink:visited {
 
 .navbarLink:hover {
   text-decoration: none;
+}
+
+.largeImgWithDetailsBlockContainer {
+  border: 1px solid red;
+  width: 1170px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 45% 50%;
+  column-gap: 5%;
+}
+
+.img-responsive {
+  width: 107%;
 }
