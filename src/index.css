@@ -6,10 +6,14 @@
 
 body {
   font-family: sans-serif;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, Verdana, Sans-serif; */
+  ;
   color: #333;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .App-container {
@@ -263,4 +267,144 @@ a.navbarLink:visited {
   justify-items: center;
   /* margin: auto */
   margin-bottom: 100px
+}
+
+.shippingPaymentsMainContainer {
+  font-size: .8125rem;
+  font-weight: bold;
+  /* border: 1px solid blue; */
+}
+
+.shipping-handling-container,
+.return-policy-main-container {
+  border: 1px solid #ccc;
+  /* width: 100% */
+  padding: 0 25px 0 25px;
+  margin-bottom: 15px;
+}
+
+.shippingHandlingTitle,
+.returnPolicyTitle {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.itemLocationDiv {
+  color: #707070
+}
+
+.ShippingAndHandlingForm {
+  display: grid;
+  grid-template-columns: .5fr 1.8fr 1fr;
+  /* gap: 3rem; */
+  color: #333;
+  width: 75%;
+  font-weight: normal;
+  align-items: center;
+}
+
+.quantityBox {
+  padding: 5px
+}
+
+.countryDropDown {
+  min-width: 230px;
+}
+
+.zipcodeDiv {
+  margin-left: 10px;
+}
+
+.zipcodeBox {
+  width: 108px;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 8px
+}
+
+.shippingHandlingSubBtn {
+  font-weight: 500;
+  height: 30px;
+  border: 1px solid #ddd;
+  background: #f8f8f8;
+  text-decoration: none;
+  color: #0654ba
+}
+
+.shippingTable {
+  font-weight: bold;
+  margin-top: 15px;
+  background-color: #ddd;
+  padding: 10px;
+  font-size: 10px;
+  font-family: inherit;
+  display: grid;
+  grid-template-columns: 14% 13% 12% 27% 30%;
+}
+
+.shipingTableInfo {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 14% 13% 12% 27% 30%;
+  font-weight: normal;
+  font-size: 14px;
+  border-bottom: 1px solid #c4c4c4;
+  border-top: 1px solid #c4c4c4;
+  margin-bottom: 5px;
+}
+
+.trademark {
+  font-size: 10px;
+  height: 100%;
+  position: relative;
+  top: -5px
+}
+
+.deliveryDate {
+  font-weight: bold;
+  color: #555
+}
+
+.deliveryEstimate {
+  font-size: 10px;
+  padding-left: 25px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.estimateLink,
+.taxesLink,
+.retunsLink {
+  color: #0654ba
+}
+
+.handlingTimeDiv,
+.taxesDiv,
+.returnPolicyGreyDiv {
+  background-color: #ddd;
+  font-weight: bold;
+  font-size: 11px;
+  color: #444;
+  padding: 10px;
+  padding-left: 15px;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.handlingTimeP,
+.taxesP,
+.returnDaysP,
+.returnsP {
+  color: #5d5d5d;
+  padding-left: 15px;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.returnDaysP {
+  border-bottom: 1px solid #c4c4c4;
+  padding-bottom: 10px;
+}
+
+.returnsP {
+  padding-left: 0;
 }
