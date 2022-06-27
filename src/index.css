@@ -276,7 +276,8 @@ a.navbarLink:visited {
 }
 
 .shipping-handling-container,
-.return-policy-main-container {
+.return-policy-main-container,
+.payment-details-main-container {
   border: 1px solid #ccc;
   /* width: 100% */
   padding: 0 25px 0 25px;
@@ -284,7 +285,8 @@ a.navbarLink:visited {
 }
 
 .shippingHandlingTitle,
-.returnPolicyTitle {
+.returnPolicyTitle,
+.paymentDetailsTitle {
   font-size: 1rem;
   margin-top: 5px;
 }
@@ -353,6 +355,23 @@ a.navbarLink:visited {
   margin-bottom: 5px;
 }
 
+.returnPolicyGreyDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr .9fr;
+  /* font-size: 10px; */
+}
+
+.returnPolicyGreyDiv p {
+  margin: 0;
+  font-size: 10px
+}
+
+.returnPolicyTable {
+  display: grid;
+  grid-template-columns: 34% 33.4% 30%;
+
+}
+
 .trademark {
   font-size: 10px;
   height: 100%;
@@ -374,13 +393,15 @@ a.navbarLink:visited {
 
 .estimateLink,
 .taxesLink,
-.retunsLink {
+.retunsLink,
+.seetermsLink {
   color: #0654ba
 }
 
 .handlingTimeDiv,
 .taxesDiv,
-.returnPolicyGreyDiv {
+.returnPolicyGreyDiv,
+.paymentMethodsGreyDiv {
   background-color: #ddd;
   font-weight: bold;
   font-size: 11px;
@@ -407,4 +428,118 @@ a.navbarLink:visited {
 
 .returnsP {
   padding-left: 0;
+}
+
+.minilogos {
+  padding: 20px;
+  border-bottom: 1px solid #c4c4c4;
+  margin-bottom: 10px;
+}
+
+.paypal {
+  background-image: url(https://ir.ebaystatic.com/cr/v/c1/payment-logo-sprite.png);
+  background-position: center;
+  background-position-x: -155px;
+  display: inline-block;
+  height: 24px;
+  width: 39px;
+  color: transparent;
+  margin-right: 3px;
+}
+
+.Gpay {
+  background-image: url(https://ir.ebaystatic.com/cr/v/c1/payment-logo-sprite.png);
+  background-position: center;
+  background-position-x: -310px;
+  display: inline-block;
+  height: 24px;
+  width: 39px;
+  color: transparent;
+  margin-right: 3px;
+
+}
+
+.Visa {
+  background-image: url(https://ir.ebaystatic.com/cr/v/c1/payment-logo-sprite.png);
+  background-position: center;
+  background-position-x: 0;
+  display: inline-block;
+  height: 24px;
+  width: 39px;
+  color: transparent;
+  margin-right: 3px;
+
+}
+
+.Mastercard {
+  background-image: url(https://ir.ebaystatic.com/cr/v/c1/payment-logo-sprite.png);
+  background-position: center;
+  background-position-x: -39px;
+  display: inline-block;
+  height: 24px;
+  width: 39px;
+  color: transparent;
+  margin-right: 3px;
+
+}
+
+.Amex {
+  background-image: url(https://ir.ebaystatic.com/cr/v/c1/payment-logo-sprite.png);
+  background-position: center;
+  background-position-x: -77.5px;
+  display: inline-block;
+  height: 24px;
+  width: 39px;
+  color: transparent;
+  margin-right: 3px;
+
+}
+
+.Discover {
+  background-image: url(https://ir.ebaystatic.com/cr/v/c1/payment-logo-sprite.png);
+  background-position: center;
+  background-position-x: -116px;
+  display: inline-block;
+  height: 24px;
+  width: 39px;
+  color: transparent;
+  margin-right: 3px;
+
+}
+
+.payPal-SpecialFinancingBlock {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 15px;
+  padding: 20px;
+  column-gap: 7rem;
+}
+
+.paypalcreditLogo {
+  background: url(//p.ebaystatic.com/aw/logos/logoPaypalCreditv2_157x55.png) no-repeat;
+  display: inline-block;
+  width: 157px;
+  height: 55px;
+  color: transparent;
+}
+
+.specialFinancingAvailableDiv {
+  font-size: .9rem;
+  font-weight: normal;
+  color: #262626;
+  width: 95%;
+  margin-bottom: 10px;
+}
+
+.specialfiniancingtitle {
+  margin: 0;
+  color: #3665f3;
+  font-size: 1.3rem;
+  font-family: "Helvetica neue";
+}
+
+.financingBold {
+  font-weight: 700;
+  color: #262626;
+  font-size: .85rem
 }

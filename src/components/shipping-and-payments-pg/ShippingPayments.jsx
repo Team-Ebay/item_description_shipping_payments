@@ -11,7 +11,7 @@ const ShippingPayments = () => {
 
             <ShippingAndHandling />
             <ReturnPolicy />
-            {/* <PaymentDetails /> */}
+            <PaymentDetails />
         </div>
     )
 }
