@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ShippingAndHandlingForm from './ShippingAndHandlingForm.jsx'
 import ShippingTable from './ShippingTable.jsx';
 
 const ShippingAndHandling = () => {
+
+    const [shippingInfo, setShippingInfo] = useState({
+        'quantity': 1,
+        'country': 'United States',
+        'zipcode': 76542
+    })
+
     return (
         <div className='shipping-handling-container'>
 
@@ -14,8 +21,8 @@ const ShippingAndHandling = () => {
                 <p>Excludes: Barbados, French Guiana, French Polynesia, Guadeloupe, Libya, Martinique, New Caledonia, Reunion, Russian Federation, Ukraine, Venezuela</p>
             </div>
 
-            <ShippingAndHandlingForm />
-            <ShippingTable />
+            <ShippingAndHandlingForm shippingInfo={shippingInfo} setShippingInfo={setShippingInfo} />
+            <ShippingTable shippingInfo={shippingInfo} />
 
             <div className='handlingTimeDiv'>Handling time</div>
             <p className='handlingTimeP'>Will usually ship within 1 business day of receiving cleared payment.</p>

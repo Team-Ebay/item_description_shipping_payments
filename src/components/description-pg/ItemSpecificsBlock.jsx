@@ -1,12 +1,12 @@
 import React from 'react';
 import DetailsContainer from './DetailsContainer.jsx'
 
-const ItemSpecificsBlock = () => {
+const ItemSpecificsBlock = ({ itemData }) => {
     return (
         <div className='itemSpecificsContainer'>
             <div className='itemSpecificsTitle'> Item specifics</div>
 
-            <DetailsContainer />
+            <DetailsContainer itemData={itemData} />
         </div>
     )
 }

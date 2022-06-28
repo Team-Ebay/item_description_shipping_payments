@@ -1,15 +1,14 @@
 import React from 'react'
 
-function DetailsRow1() {
-    let details = 'New with tags: A brand-new, unused, and unworn item (including handmade items) in the original packaging (such as the original box or bag) and/or with the original tags attached.'
+function DetailsRow1({ itemData }) {
 
     return (
         <>
             <div className='label'>Condition: </div>
-            <div className='details'> {details}
-                <a href='#'> See all condition definitions</a></div>
+            <div className='details'> {itemData.condition}
+                <a href='https://www.ebay.com/pages/help/sell/contextual/condition_2.html'> See all condition definitions</a></div>
             <div className='label2'> Brand: </div>
-            <div className='details'> {'Jordefano'}</div>
+            <div className='details'> {itemData.brand}</div>
         </>
     )
 }

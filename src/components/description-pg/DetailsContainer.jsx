@@ -8,26 +8,26 @@ import DetailsRow6 from './DetailsRow6'
 import DetailsRow7 from './DetailsRow7'
 import DetailsRow8 from './DetailsRow8'
 
-const DetailsContainer = () => {
+const DetailsContainer = ({ itemData }) => {
 
     return (
         <div className='detailsContainer'>
 
-            <DetailsRow1 />
+            <DetailsRow1 itemData={itemData} />
 
-            <DetailsRow2 />
+            <DetailsRow2 itemData={itemData} />
 
-            <DetailsRow3 />
+            <DetailsRow3 itemData={itemData} />
 
-            <DetailsRow4 />
+            <DetailsRow4 itemData={itemData} />
 
-            <DetailsRow5 />
+            <DetailsRow5 itemData={itemData} />
 
-            <DetailsRow6 />
+            <DetailsRow6 itemData={itemData} />
 
-            <DetailsRow7 />
+            <DetailsRow7 itemData={itemData} />
 
-            <DetailsRow8 />
+            <DetailsRow8 itemData={itemData} />
 
         </div>
     )

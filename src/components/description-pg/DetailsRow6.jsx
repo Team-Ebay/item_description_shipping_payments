@@ -1,15 +1,13 @@
 import React from 'react'
 
-function DetailsRow6() {
-
-    let season = 'Summer, Winter, Fall, Spring';
+function DetailsRow6({ itemData }) {
 
     return (
         <>
             <div className='label'>Season: </div>
-            <div className='details'> {season}</div>
+            <div className='details'> {itemData.season}</div>
             <div className='label2'> Size: </div>
-            <div className='details'> {'One Size'}</div>
+            <div className='details'> {itemData.size}</div>
         </>
     )
 }

@@ -314,7 +314,8 @@ a.navbarLink:visited {
 }
 
 .zipcodeDiv {
-  margin-left: 10px;
+  margin-right: 45px;
+  min-width: 300px;
 }
 
 .zipcodeBox {
@@ -331,6 +332,13 @@ a.navbarLink:visited {
   background: #f8f8f8;
   text-decoration: none;
   color: #0654ba
+}
+
+.shippingHandlingSubBtn:hover {
+  cursor: pointer;
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
+  color: #382aef;
 }
 
 .shippingTable {

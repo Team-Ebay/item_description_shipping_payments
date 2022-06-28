@@ -1,12 +1,12 @@
 import React from 'react'
 
-function DetailsRow3() {
+function DetailsRow3({ itemData }) {
     return (
         <>
             <div className='label'>Style: </div>
-            <div className='details'> {'Bandana'}</div>
+            <div className='details'> {itemData.style}</div>
             <div className='label2'> Material: </div>
-            <div className='details'> {'Cotton'}</div>
+            <div className='details'> {itemData.material}</div>
         </>
     )
 }

@@ -6,13 +6,13 @@ import LargeImgWithDetailsBlock from './LargeImgWithDetailsBlock'
 import ChannelAdvisorLogo from './ChannelAdvisorLogo'
 
 
-const Description = () => {
+const Description = ({ itemData }) => {
     return (
         <>
             <TopBlockDetails />
-            <ItemSpecificsBlock />
+            <ItemSpecificsBlock itemData={itemData} />
             <MiniNavbarBlock />
-            <LargeImgWithDetailsBlock />
+            <LargeImgWithDetailsBlock itemData={itemData} />
             <ChannelAdvisorLogo />
         </>
     )

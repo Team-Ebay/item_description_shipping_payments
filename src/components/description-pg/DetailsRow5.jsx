@@ -1,15 +1,13 @@
 import React from 'react'
 
-function DetailsRow5() {
-
-    let features = 'Set of 4 High Quality 100% Cotton Double Sided Paisley Bandanas';
+function DetailsRow5({ itemData }) {
 
     return (
         <>
             <div className='label'>Pattern: </div>
-            <div className='details'> {'Paisley'}</div>
+            <div className='details'> {itemData.pattern}</div>
             <div className='label2'> Features: </div>
-            <div className='details'> {features}</div>
+            <div className='details'> {itemData.features}</div>
         </>
     )
 }

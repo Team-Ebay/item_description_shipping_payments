@@ -8,12 +8,12 @@ function PaymentDetails() {
             <div className='paymentMethodsGreyDiv'>Payment methods</div>
 
             <div className='minilogos'>
-                <span role='img' class='paypal'>Paypal</span>
-                <span role='img' class='Gpay'>Gpay</span>
-                <span role='img' class='Visa'>Visa</span>
-                <span role='img' class='Mastercard'>Mastercard</span>
-                <span role='img' class='Amex'>Amex</span>
-                <span role='img' class='Discover'>Discover</span>
+                <span role='img' className='paypal'>Paypal</span>
+                <span role='img' className='Gpay'>Gpay</span>
+                <span role='img' className='Visa'>Visa</span>
+                <span role='img' className='Mastercard'>Mastercard</span>
+                <span role='img' className='Amex'>Amex</span>
+                <span role='img' className='Discover'>Discover</span>
             </div>
 
             <div className='payPal-SpecialFinancingBlock'>
