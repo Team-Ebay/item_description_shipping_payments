@@ -19,6 +19,7 @@ function App() {
     fetch('http://localhost:8000/api/itemdetails')
       .then(res => res.json())
       .then(data => setItemData(data[0]))
+      .catch(error => console.log(error))
   }
 
   return (
