@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Getting Started with this item module
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Run npm install to download all dependencies.\
+Update the .env file with your database URL.\
+Use migration and seed files to create & fill the needed table.\
+Add a DIV with id= ItemDescriptionRoot to your proxy server.\    
 
 ## Available Scripts
 
