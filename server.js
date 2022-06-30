@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 const controller = require('./backend/controller')
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 4003;
 
 app.use(express.json())
 
