@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Description from './components/description-pg/Description.jsx'
 import ShippingPayments from './components/shipping-and-payments-pg/ShippingPayments.jsx'
 
-function App() {
+function ItemDescriptionApp() {
 
   const [itemData, setItemData] = useState('')
   const [activeTab, setActiveTab] = useState(1);
@@ -55,4 +55,4 @@ function App() {
   );
 }
 
-export default App;
+export default ItemDescriptionApp;
